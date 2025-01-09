@@ -5,7 +5,14 @@
     box-sizing: border-box;
 }
 header{
-    background-image: url(/assets/fotos/jojobackground.png);
+    background-image: url(/assets/fotos/jojobackground.png);    
+    background-size: cover;
+    background-position: end;
+}
+fieldset{
+    box-shadow: #3a3a3a;
+    border-radius: 3px;
+    border: 5px solid rgb(34, 31, 31);
 }
 body{
     background-image: url(/assets/fotos/jojo_s_bizarre_adventure_zeppeli_wallpaper_by_shubwubtub_d9ceqyn.png);
@@ -25,10 +32,11 @@ body{
 }
 .pslogo{
     margin: 30px;
+    transition: transform 1.2s;
     margin-left: 47%;
 }
 .pslogo:hover{
-    background-image: linear-gradient(to bottom, #1d2b45, #1f3c59, #6a4c9c);
+    transform: scale(1.2);
 }
 .steam{
     font-family: Steam;
@@ -39,8 +47,10 @@ body{
     border-radius: 50%;
     margin: 30px;
     margin-left: 47%;
+    transition: transform 1.2s;
 }
 .steamlogo:hover{
+    transform: scale(1.2);
     background-image: linear-gradient(to bottom, #192236, #1b2838);
     border-radius: 50px;
     cursor: pointer;
@@ -58,23 +68,35 @@ body{
     text-align: center;
 }
 .gitlogo{
+    transition: transform 1.2s;
     margin: 30px;
     background-color: white;
     border-radius: 50%;
     margin-left: 47%;
 }
 .gitlogo:hover{
+    transform: scale(1.2);
     background-image: linear-gradient(to bottom, #0d1117, #161b22);
     cursor: pointer;
     border-radius: 50px;
 }
-.gitbord{
-    width: 20%;
-    border-radius: 10px;
-    margin: 5px;
-    margin-left: 40%;
+.linkedin{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     text-align: center;
 }
+.linkedinlogo{
+    margin: 30px;
+    transition: transform 1.2s;
+    background-color: white;
+    margin-left: 47%;
+    border-radius: 20px;
+}
+.linkedinlogo:hover{
+    cursor: pointer;
+    transform: scale(1.2);    
+    background-color: rgb(40, 120, 163);
+}
+
 .nick{
     text-align: center;
     color: white;

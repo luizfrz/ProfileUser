@@ -152,3 +152,31 @@ body{
         margin-left: 140px;
     }
 }
+/* STEAM API   */
+.activities{
+    font-family: steam;
+    text-align: center;
+    font-size: 30px;
+    color: #1b2838;
+}
+.game-list{
+    background-image: url(/assets/fotos/jojobackground.png);
+    border-radius: 10px;
+    margin: 2px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.game-item{
+    background-color: #0d1117;
+    width: 200px;
+}
+p{
+    border-radius: 2px;
+    color: white;
+    font-size: 10spx;
+    margin: 20px;
+    font-family: Ps;
+}

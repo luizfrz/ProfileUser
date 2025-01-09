@@ -1,1 +1,0 @@
-const profile = document.getElementById('.Profile')

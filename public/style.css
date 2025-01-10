@@ -5,13 +5,8 @@
     box-sizing: border-box;
 }
 header{
-    background-image: url(/assets/fotos/jojobackground.png);    
     background-size: cover;
     background-position: end;
-}
-.profile-lu{
-    border-radius: 3px;
-    border: 5px solid rgb(34, 31, 31);
 }
 body{
     background-image: url(/assets/fotos/jojo_s_bizarre_adventure_zeppeli_wallpaper_by_shubwubtub_d9ceqyn.png);
@@ -80,7 +75,6 @@ body{
     border-radius: 50px;
 }
 .linkedin{
-    color: white;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     text-align: center;
 }
@@ -102,6 +96,16 @@ body{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.profile{
+    border: 3px solid black;
+    border-radius: 100px;
+    margin: 20px;
+    margin-left: 43%;
+}
+.profile:hover{
+    border: 3px solid white;
+    border-radius: 100px;
+}   
 /* Nick */
 @font-face {
     font-family: Luiz;
@@ -117,16 +121,7 @@ body{
     font-family: Steam ;
     src: url(/assets/fontes/Roboto-Bold.ttf);
 }
-.profile{
-    border: 3px solid black;
-    border-radius: 100px;
-    margin: 20px;
-    margin-left: 43%;
-}
-.profile:hover{
-    border: 3px solid white;
-    border-radius: 100px;
-}
+/*Media query*/
 @media  screen and (max-width: 700px) {
     .profile, .header{
         margin-left: 110px;
@@ -135,21 +130,10 @@ body{
     }
 }
 @media screen and (max-width: 700px) {
-    .gitbord{
-        margin-left: 110px;
-        width: 150px;
-    }
-}
-@media screen and (max-width: 700px) {
-    .steambord{
-        margin-left: 90px;
-        width: 220px;
-    }
-}
-@media screen and (max-width: 700px) {
-    .gitlogo, .steamlogo, .pslogo{
+    .gitlogo, .steamlogo, .pslogo, .linkedinlogo{
         width: 80px;
         margin-left: 140px;
+        display: flex;
     }
 }
 /* STEAM API */

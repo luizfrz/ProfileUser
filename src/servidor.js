@@ -19,7 +19,7 @@ app.get('/steam/activities', async (req, res) => {
                 key: STEAM_KEY,
                 steamid: STEAM_ID
             }
-        });
+        });ss
 
         res.json(data.response);
     } catch (error) {

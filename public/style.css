@@ -9,8 +9,7 @@ header{
     background-size: cover;
     background-position: end;
 }
-fieldset{
-    box-shadow: #3a3a3a;
+.profile-lu{
     border-radius: 3px;
     border: 5px solid rgb(34, 31, 31);
 }
@@ -81,6 +80,7 @@ body{
     border-radius: 50px;
 }
 .linkedin{
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     text-align: center;
 }
@@ -152,7 +152,7 @@ body{
         margin-left: 140px;
     }
 }
-/* STEAM API   */
+/* STEAM API */
 .activities{
     font-family: steam;
     text-align: center;
@@ -160,8 +160,7 @@ body{
     color: #1b2838;
 }
 .game-list{
-    background-color: #1b2838;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 2px;
     overflow: hidden;
     display: flex;
@@ -170,17 +169,28 @@ body{
     align-items: center;
 }
 .game-item{
-    width: 100%;
-    transition: transform 2s ease; 
+    width: 15%;
+    border-radius: 5px;
+    background-position: 20px;
     cursor: pointer;
-}
-.game-item:hover{
-    transform: scale(1.1);
+    margin: 10px;
 }
 p{
     border-radius: 2px;
     color: white;
-    font-size: 10spx;
-    margin: 20px;
-    font-family: Ps;
+    font-size: 10px;
+    font-style: italic;
+    font-family: steam;
+}
+.steam-listgame{    
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-image: url(/assets/fotos/backgroundgamer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid black;
+    padding: 20px;
+    height: auto;
+    margin: 20px auto;
 }

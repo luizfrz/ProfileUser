@@ -10,7 +10,8 @@ Este é um projeto voltado para o aprendizado de desenvolvimento web, dividido e
 - **Backend:** Node.js
 - **API:** Steam Web API
 - **Removebg:** Remoção de fundo
-
+# layout - api
+![image](https://github.com/user-attachments/assets/d6444db2-2df6-4966-acc6-092232bf36f4)
 ## Faça a troca para visualizar api
 ### Instale as dependencias
 > npm install express axios cors dotenv

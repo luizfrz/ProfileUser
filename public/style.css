@@ -1,7 +1,6 @@
 *{
     padding: 0%;
     margin: 0%;
-    color: #3a3a3a;
     box-sizing: border-box;
 }
 header{
@@ -94,7 +93,42 @@ body{
 .nick{
     text-align: center;
     color: white;
+    background-color: #4a1a1a;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#redecolor{
+    color: #000000; 
+    border-color: #ffffff; 
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 40%;
+    animation: redecolor 5s infinite alternate-reverse;
+}
+/* key frames rede */
+@keyframes redecolor {
+    0% {
+        background-color: #4a1a1a; 
+        color: black;
+    }
+    50% {
+      background-color: #4a1a1a; 
+      color: white;
+    }
+    60% {
+       background-color: #4a1a1a; 
+      color: #ffffff;
+    }
+    100%{
+        background-color: #4a1a1a; 
+        color: black;
+    } 
+}  
+#colorall{
+    background-color: #4a1a1a; 
+    color: black;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 40%;
 }
 .profile{
     border: 3px solid black;

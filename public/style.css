@@ -157,7 +157,9 @@ body{
     border-radius: 5px;
     background-position: 20px;
     cursor: pointer;
+    background-color: #0d1117;
     margin: 10px;
+    display: flex;
 }
 p{
     border-radius: 2px;

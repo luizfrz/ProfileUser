@@ -12,6 +12,8 @@ Este é um projeto voltado para o aprendizado de desenvolvimento web, dividido e
 - **Removebg:** Remoção de fundo
 
 ## Faça a troca para visualizar api
+### Instale as dependencias
+> npm install express axios cors dotenv
 >git checkout noapi
 ## Rode o servidor 
 > node src/servidor.js

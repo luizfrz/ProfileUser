@@ -160,9 +160,9 @@ body{
     .profile, .header,#colorall, #redecolor{
         margin-left: 110px;
         width: 150px;
-        background: none;
     }
 }
+
 @media screen and (max-width: 700px) {
     .gitlogo, .steamlogo, .pslogo, .linkedinlogo{
         width: 80px;

@@ -61,14 +61,14 @@ body{
     text-align: center;
 }
 .gitlogo{
-    transition: transform 1.2s;
+    transition: transform 1s;
     margin: 30px;
     background-color: white;
     border-radius: 50%;
     margin-left: 47%;
 }
 .gitlogo:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-image: linear-gradient(to bottom, #0d1117, #161b22);
     cursor: pointer;
     border-radius: 50px;
@@ -79,14 +79,14 @@ body{
 }
 .linkedinlogo{
     margin: 30px;
-    transition: transform 1.2s;
+    transition: transform 1s;
     background-color: white;
     margin-left: 47%;
     border-radius: 20px;
 }
 .linkedinlogo:hover{
     cursor: pointer;
-    transform: scale(1.2);    
+    transform: scale(1.1);    
     background-color: rgb(40, 120, 163);
 }
 
@@ -134,11 +134,14 @@ body{
     border: 3px solid black;
     border-radius: 100px;
     margin: 20px;
+    transition: transform 1s;
     margin-left: 43%;
 }
 .profile:hover{
+    transform: rotate3d(0, 1, 0.5, 3.142rad);
     border: 3px solid white;
     border-radius: 100px;
+    cursor: grab;
 }   
 /* Nick */
 @font-face {

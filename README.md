@@ -3,10 +3,10 @@
 ## Sobre o Projeto
 Este é um projeto voltado para o aprendizado de desenvolvimento web, dividido em duas branches: 
 - **main (principal) :** Personalização com **HTML**, **CSS** e **JavaScript**, focada no design e interatividade.
-- **steamAPI(api):** Desenvolvimento com **Node.js** e **React**, integrando a **API da Steam** 
+- **steamAPI(api):** Desenvolvimento com **Node.js**, integrando a **API da Steam** 
 
 ## Tecnologias Utilizadas
-- **Frontend:** HTML, CSS, JavaScript, React
+- **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js
 - **API:** Steam Web API
 - **Removebg:** Remoção de fundo 

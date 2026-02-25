@@ -33,6 +33,6 @@
                 });
             })
             .catch(error => {
-                console.error('Atividades não foram encontradas!', error);
-                document.getElementById('game-list').innerHTML = '<p>Algum erro no codigo</p>';
-            });
+       console.error('Atividades não foram encontradas!', error);
+     document.getElementById('game-list').innerHTML = '<p>Algum erro no codigo</p>';
+ });
